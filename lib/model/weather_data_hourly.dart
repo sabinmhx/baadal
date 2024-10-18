@@ -43,7 +43,6 @@ class Weather {
 
   Weather({this.id, this.main, this.description, this.icon});
 
-  // from json
   factory Weather.fromJson(Map<String, dynamic> json) => Weather(
         id: json['id'] as int?,
         main: json['main'] as String?,
