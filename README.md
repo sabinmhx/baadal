@@ -43,7 +43,3 @@ Follow these steps to run the app on your local machine:
     ```
     flutter run --dart-define=API_KEY=your_api_key_here
     ```
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
